@@ -5,6 +5,19 @@
   "name": "alsergio",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
+    "about_me/first_name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "alsergio::default"
+      ],
+      "display_name": "First Name",
+      "description": "First Name Challenge"
+    }
   },
   "license": "All rights reserved",
   "suggestions": {
@@ -17,7 +30,7 @@
   "recommendations": {
   },
   "recipes": {
-    "alsergio::default": "sends Hello World! to the logs"
+    "alsergio::default": "gets a first name in UI"
   },
   "groupings": {
   },
