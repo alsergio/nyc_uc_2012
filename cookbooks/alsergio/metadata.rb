@@ -12,3 +12,27 @@ attribute "about_me/first_name",
   :display_name => "First Name",
   :description => "First Name Challenge",
   :recipes => ["alsergio::default"]
+
+attribute "about_me/favorite/food",
+  :required => "optional",
+  :display_name => "Favorite Food",
+  :description => "Your Favorite Food",
+  :category => "Favorites",
+  :default => "Kebab",
+  :recipes => ["alsergio::default"]
+
+attribute "about_me/favorite/drink",
+  :required => "optional",
+  :display_name => "Favorite Drink",
+  :description => "Your Favorite Drink",
+  :category => "Favorites",
+  :default => "Wodka",
+  :recipes => ["alsergio::default"]
+
+attribute "about_me/favorite/hobby",
+  :required => "optional",
+  :display_name => "Favorite Hobby",
+  :description => "Your Favorite Hobby",
+  :category => "Favorites",
+  :default => "Tennis",
+  :recipes => ["alsergio::default"]

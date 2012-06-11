@@ -17,6 +17,51 @@
       ],
       "display_name": "First Name",
       "description": "First Name Challenge"
+    },
+    "about_me/favorite/drink": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "Wodka",
+      "type": "string",
+      "recipes": [
+        "alsergio::default"
+      ],
+      "display_name": "Favorite Drink",
+      "description": "Your Favorite Drink"
+    },
+    "about_me/favorite/food": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "Kebab",
+      "type": "string",
+      "recipes": [
+        "alsergio::default"
+      ],
+      "display_name": "Favorite Food",
+      "description": "Your Favorite Food"
+    },
+    "about_me/favorite/hobby": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "Tennis",
+      "type": "string",
+      "recipes": [
+        "alsergio::default"
+      ],
+      "display_name": "Favorite Hobby",
+      "description": "Your Favorite Hobby"
     }
   },
   "license": "All rights reserved",
