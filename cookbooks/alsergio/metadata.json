@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "rs_utils": ">= 0.0.0"
   },
   "name": "alsergio",
   "maintainer_email": "YOUR_EMAIL",
